@@ -1,6 +1,6 @@
 #####################################
-#	EJERCICIOS EN C.- by Secury.	#
-#   Capa 1							#
+#	EJERCICIOS EN C.- by Secury.	    #
+#   Capa 1                          #
 #####################################
 
 
