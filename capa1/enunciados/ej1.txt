@@ -1,5 +1,5 @@
 #####################################
-#	EJERCICIOS EN C.- by Secury.	    #
+# EJERCICIOS EN C.- by Secury.	    #
 #   Capa 1                          #
 #####################################
 
