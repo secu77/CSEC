@@ -1,0 +1,19 @@
+#####################################
+#	EJERCICIOS EN C.- by Secury.	#
+#   Capa 1							#
+#####################################
+
+
+
+1.) Programa que controla el acceso a una sala. Se disponde de un código secreto
+tal como: "55201" que debería ir en una varible de tipo entero llamada 'key'. 
+Inicialmente se solicitará dicha clave para acceder a la sala, pueden pasar 2 cosas:
+  -La clave del usuario es errónea, en ese caso se muestra un mensaje de error.
+  -La clave del usuario es correcta, se muestra un mensaje de acierto (Ej: "Adelante puedes pasar").
+
+
+*No hay doble intento, sólo una oportunidad.
+
+
+
+#####################################################################################################

@@ -1,0 +1,13 @@
+#####################################
+#	EJERCICIOS EN C.- by Secury.	#
+#   Capa 1							#
+#####################################
+
+
+
+2.) Programa que solicita un número decimal y lo pasa/muestra en binario. Número que se introduce
+entre 0-64.
+
+
+
+#####################################################################################################

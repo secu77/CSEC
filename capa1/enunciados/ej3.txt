@@ -1,0 +1,18 @@
+#####################################
+#	EJERCICIOS EN C.- by Secury.	#
+#   Capa 1							#
+#####################################
+
+
+
+3.) Similar al programa 1, pero en este caso, se controlarán los siguientes sucesos:
+  
+  -Se pedirá usuario y clave (existiran 2 usuarios: Administrador con clave "55201" e Invitado con
+  clave "00100").
+  -Cada usuario tiene su mensaje de acierto. Se deberá validar que el usuario existe en los
+  almacenados (se almacenaran en 2 variables), y luego su respectiva clave (se almacenan en 2 variables tambien).
+  -Sólo hay 5 intentos, al 5 se finaliza la ejecución, o, si se muestra un mensaje de acierto.
+
+
+
+#####################################################################################################

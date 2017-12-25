@@ -1,0 +1,12 @@
+#####################################
+#	EJERCICIOS EN C.- by Secury.	#
+#   Capa 1							#
+#####################################
+
+
+
+4.) Se piden 10 números que se almacenaran en un vector de enteros. Numeros entre el 1 y 32. Se pide al usuario una letra 'A' o 'D', se repetirá hasta que la elección sea una de esas.Posteriormente se ordenarán y se mostrarán en orden ascendente o descendente, según la elección del usuario ('A' ordenamiento ascendente, 'D' ordenamiento Descendente).
+
+
+
+#####################################################################################################

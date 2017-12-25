@@ -1,0 +1,36 @@
+#####################################
+#	EJERCICIOS EN C.- by Secury.	#
+#   Capa 1							#
+#####################################
+
+
+
+5.) Se pide crear la estructura de una Web de Hacking, donde hay disponibles diferentes productos:
+ 
+ -Exploits= WordPress(1.3 Monero), OpenSSH(2.5 Monero), Apache(1.7 Monero), Kernel Linux(5.9 Monero).
+ -Rats= Android(1.2 Monero), Win10(0.4 Monero), Ubuntu(0.5 Monero), Iphone(1.7 Monero), Mac(1.9 Monero).
+ -Botnets= IoT(1.3 Monero), Vps(3.2 Monero), PCs(2.9 Monero).
+
+ Cada Producto de los anteriores, se compondrá de:
+   Nombre, Tipo (exploits, Rats, Botnet) y precio.
+
+ Se mostrará un panel de opciones del estilo:
+
+ `*** Tienda Tio Paco ***
+
+  Seleccione una opcion:
+   1.) Nuevo Cliente.
+   2.) Ver Mercancía.
+   3.) Comprar Artículos.
+   4.) Ver Cesta.
+   5.) Salir.             `
+
+
+ El Procedimiento consiste: Existirá una estructura usuario formada por un nombre, una cartera y una cesta. Pulsando la opción 1, se solicita un nombre para el usuario, y se genera ALEATORIAMENTE un número entre el 2 y 20, que será el valor de Monero de la cartera de dicho usuario. La opción 2 muestra toda la estructura de la tienda, que serán los 3 tipos de productos antes citados, con sus respectivos modelos y precios. La opción 3 te permite comprar un artículo, si te alcanza con lo que
+ tienes en tu cartera. Si puedes comprar dicho articulo se añadirá a la cesta, hasta que tu importe sea 0 o escribas 'exit'. La opción 4 te permite ver los productos de la cesta. Con la opcion 5 finalizas la ejecución.
+
+
+ *Si no se registra un nuevo cliente, no se pueden usar las opciones 2,3 y 4.
+
+
+#####################################################################################################
