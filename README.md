@@ -1,4 +1,6 @@
-# CSEC
-CSEC Ejercicios de Programación en C
+# La seCta
+Grupo de Programación en C. Orientado al desarrollo y diseño de malware.
 
-Para los 😈 diablillos de CSEC, cualquier duda que tengais, abrir un ❗️Issue o preguntar por el 📲 Grupo!
+Cualquier duda surgida, abrir un ❗️Issue o preguntar por el 📲 Grupo!
+
+Cualquier uso que le puedas dar a este contenido, queda bajo tu responsabilidad.
