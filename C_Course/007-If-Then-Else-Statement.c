@@ -15,6 +15,27 @@
  *  los casos de las condiciones como 0 y 1, y no es
  *  del todo cierto, ya que un 5 sobre una condición
  *  hará saltar como VERDADERO, al igual que un -5.
+ *  El único número que devuelve FALSO en el condi-
+ *  cional `if` es el 0.
+ *
+ *  En el if tenemos 3 partes a escribir, a la hora
+ *  de programar: palabra clave (if), condición y
+ *  bloque.
+ *
+ *  if (condición) {
+ *    // bloque
+ *  }
+ *
+ *  Los operadores que podemos utilizar en un if,
+ *  son: =, ==, !, !=, &, &&, |, ||, ~, ^ y ()
+ *
+ *  Más adelante explicamos cuáles son los usos.
+ *
+ *  Debemos diferenciar entre operador lógico y o-
+ *  peración: &, |, ~ y ^ son operaciones con bits.
+ *  ==, !, !=, &&, || y () se usan para la lógica.
+ *  = es una operación que C siempre devolverá
+ *  VERDADERO.
  *
  *  También dejo por aquí la tabla de Verdad de los
  *  principales operadores lógicos:
@@ -46,10 +67,14 @@
  *   ---------------------------------
  *   |  1  |  ^  |  1  |  = 0  |  F  |
  *   ---------------------------------
+ *   |  ~  |  1  |  =  |  0    |  F  |
+ *   ---------------------------------
+ *   |  ~  |  0  |  =  |  1    |  V  |
+ *   ---------------------------------
  *
  *  [*] Recordar que con `!` hacemos
- *  la negación, es decir, como un
- *  una puerta lógica `not`.
+ *  la negación lógica. Es decir, con
+ *  `~` hacemos una puerta lógica `NOT`.
  *  Esto nos transforma los 1 en 0 y
  *  los 0 en 1. (Es decir, la inversa).
  *
