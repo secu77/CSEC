@@ -32,8 +32,9 @@
  *  Más adelante explicamos cuáles son los usos.
  *
  *  Debemos diferenciar entre operador lógico y o-
- *  peración: &, |, ~ y ^ son operaciones con bits.
- *  ==, !, !=, &&, || y () se usan para la lógica.
+ *  peración: &, |, ~ y ^ son operadores que se
+ *  utilizan a nivel de operaciones con bits.
+ *  ==, !, !=, &&, || y () se usan para op. lógicas.
  *  = es una operación que C siempre devolverá, el
  *  valor final de la variable a la que le asig-
  *  nemos el valor. P. ej: a = 0 devolverá FALSO.
@@ -41,50 +42,41 @@
  *  También dejo por aquí la tabla de Verdad de los
  *  principales operadores lógicos:
  *
- *   +-------------------------------+
- *   |        TABLA DE VERDAD        |
- *   ---------------------------------
- *   |  0  |  &  |  0  |  = 0  |  F |
- *   ---------------------------------
- *   |  0  |  &  |  1  |  = 0  |  F |
- *   ---------------------------------
- *   |  1  |  &  |  0  |  = 0  |  F |
- *   ---------------------------------
- *   |  1  |  &  |  1  |  = 1  |  V |
- *   ---------------------------------
- *   |  0  |  |  |  0  |  = 0  |  F |
- *   ---------------------------------
- *   |  0  |  |  |  1  |  = 1  |  V |
- *   ---------------------------------
- *   |  1  |  |  |  0  |  = 1  |  V |
- *   ---------------------------------
- *   |  1  |  |  |  1  |  = 1  |  V |
- *   ---------------------------------
- *   |  0  |  ^  |  0  |  = 0  |  F  |
- *   ---------------------------------
- *   |  0  |  ^  |  1  |  = 1  |  V  |
- *   ---------------------------------
- *   |  1  |  ^  |  0  |  = 1  |  V  |
- *   ---------------------------------
- *   |  1  |  ^  |  1  |  = 0  |  F  |
- *   ---------------------------------
- *   |  ~  |  1  |  =  |  0    |  F  |
- *   ---------------------------------
- *   |  ~  |  0  |  =  |  1    |  V  |
- *   ---------------------------------
+ *   +--------------------------------+
+ *   |        TABLA DE VERDAD         |
+ *   ----------------------------------
+ *   |  0  |  &&  |  0  |  = 0  |  F  |
+ *   ----------------------------------
+ *   |  0  |  &&  |  1  |  = 0  |  F  |
+ *   ----------------------------------
+ *   |  1  |  &&  |  0  |  = 0  |  F  |
+ *   ----------------------------------
+ *   |  1  |  &&  |  1  |  = 1  |  V  |
+ *   ----------------------------------
+ *   |  0  |  ||  |  0  |  = 0  |  F  |
+ *   ----------------------------------
+ *   |  0  |  ||  |  1  |  = 1  |  V  |
+ *   ----------------------------------
+ *   |  1  |  ||  |  0  |  = 1  |  V  |
+ *   ----------------------------------
+ *   |  1  |  ||  |  1  |  = 1  |  V  |
+ *   ----------------------------------
+ *   |  !  |  1   |     |  = 0  |  F  |
+ *   ----------------------------------
+ *   |  !  |  0   |     |  = 1  |  V  |
+ *   ----------------------------------
  *
- *  [*] Recordar que con `!` hacemos
- *  la negación lógica. Es decir, con
- *  `~` hacemos una puerta lógica `NOT`.
- *  Esto nos transforma los 1 en 0 y
- *  los 0 en 1. (Es decir, la inversa).
- *
+ *   No confundir el operador lógico `!`
+ *   (NOT) con el operador de Complemento
+ *   a 1 (C1) `~`, que se utiliza a nivel
+ *   de bits.
  */
 
 
 int main (int argc, char **argv){
 	
 	int n = 10;
+	int var;
 
 
 	/* Demostrando el 0 y !0 (En la evaluación de la condición) */
@@ -100,6 +92,11 @@ int main (int argc, char **argv){
 		printf("\nEsto TAMBIEN se va a ejecutar\n");
 	}
 
+	if ((var = 0)) {
+		printf("\nEsto no se va a ejecutar\n");
+	} else {
+		printf("\nAl ser 0, esto se va a ejecutar\n");
+	}
 
 
 	/* ¿Es la variable entera `n` mayor que 5? */
@@ -149,10 +146,10 @@ int main (int argc, char **argv){
 	 *
 	 *  Dicho operador precisa de 3 argumentos:
 	 *    -1º: Condición a evaluar.
-	 *	  -2º: Clausula en caso de Verdadero.
-	 *	  -3º: Clausula en caso de Falso.
+	 *    -2º: Clausula en caso de Verdadero.
+	 *    -3º: Clausula en caso de Falso.
 	 *
-	 *	Armado quedaría de esta forma:
+	 *  Armado quedaría de esta forma:
 	 *
 	 *   (condicion) ? (si verdadero) : (si falso);
 	 *
