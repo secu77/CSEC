@@ -34,8 +34,9 @@
  *  Debemos diferenciar entre operador lógico y o-
  *  peración: &, |, ~ y ^ son operaciones con bits.
  *  ==, !, !=, &&, || y () se usan para la lógica.
- *  = es una operación que C siempre devolverá
- *  VERDADERO.
+ *  = es una operación que C siempre devolverá, el
+ *  valor final de la variable a la que le asig-
+ *  nemos el valor. P. ej: a = 0 devolverá FALSO.
  *
  *  También dejo por aquí la tabla de Verdad de los
  *  principales operadores lógicos:
