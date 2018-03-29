@@ -46,11 +46,10 @@ int main(int argv, char *argc[])
 	/*
 	 *	Declaramos una matriz bidimensional de 2x3:
 	 *
-	 *	+-----------+
-	 *	|	2	3	|
-	 *	|	2	3	|
-	 *	|	3	2	|
-	 *	+-----------+
+	 *	+-------------------------------+
+	 *	|	2	2	3	|
+	 *	|	3	3	2	|
+	 *	+-------------------------------+
 	 *
 	 *  Al tener las definiciones como 
 	 *	MAXFIL=2 y MACOL=3, y utilizar dichas
