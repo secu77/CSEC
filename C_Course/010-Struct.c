@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+union UData {
+   int i;
+   float f;
+   char str[8];
+};
+
 int main(int argc, char *argv[])
 {
 	struct {
@@ -7,7 +13,8 @@ int main(int argc, char *argv[])
 		float b;
 		int c;
 	} myst;
-
+	union UData udata;
+	
 	myst.a = 4;
 	myst.b = 3.37;
 	myst.c = 8;
